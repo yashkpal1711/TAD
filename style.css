@@ -1,8 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;   
+}
+
+html,
+body{
+    overflow-x:hidden;
+    background-color: rgb(0, 0, 0);
+    color: rgb(206, 206, 206);
+    font-family: 'Lato' ,'Arial' ,sans-serif;
+}
+
+
+
 
 .header{
     background-image:linear-gradient(rgba(22, 22, 22, 0.705),rgba(22, 22, 22, 0.705)),url(img/bg/hero.jpg);
     height: 100vh;
     width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
    
@@ -13,12 +32,14 @@
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    color: #f1ecec;
+    font-family: "lato",sans-serif;
 }
 
 .hero-container h2{
     margin-top: 15rem;
     margin-left: 5rem; 
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2rem;
     
 }
@@ -34,7 +55,7 @@
 }
 .hero-sub{
     margin-top: -6rem;
-    margin-left: -1rem;
+    margin-left: -2rem;
 }
 
 @keyframes moveInBottom {
