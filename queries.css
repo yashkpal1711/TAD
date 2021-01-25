@@ -1,12 +1,5 @@
 
 @media only screen and (max-width:767px){
-    .hero-container{
-        top: 40%;
-        left: 50%;
-        position: absolute;
-        transform: translate(-50%, -50%);
-    }
-    
     
     .hero-container h2{
         margin-top: 13rem;
@@ -33,19 +26,14 @@
 }
 
 @media only screen and (max-width:480px){
-    .hero-container{
-        top: 40%;
-        left: 50%;
-        position: absolute;
-        transform: translate(-50%, -50%);
-    }
+  
     
     .hero-container h2{
         margin-top: 13rem;
         margin-left: 5rem; 
         font-weight: 400;
         font-size: 1rem;
-        color: red;
+        
         
     }
     #hero {
