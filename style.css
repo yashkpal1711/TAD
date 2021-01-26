@@ -56,6 +56,7 @@ body{
 .hero-sub{
     margin-top: -6rem;
     margin-left: -2rem;
+    text-align: center;
 }
 
 @keyframes moveInBottom {
@@ -83,5 +84,6 @@ body{
 .quote h2{
     text-align: center;
     font-family: sans-serif;
+    line-height: 4rem;
     
 }

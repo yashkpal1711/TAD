@@ -1,4 +1,26 @@
 
+@media only screen and ( max-width:1023px){
+
+    .quote{
+        margin-top: 3%; 
+        align-content: center;
+        
+        
+        
+    }
+    
+    .quote h2{
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 3rem;
+        
+    }
+
+}
+
+
+/* for screen-size 480-767 */
 @media only screen and (max-width:767px){
     
     .hero-container h2{
@@ -33,11 +55,14 @@
         font-size: 1.3rem;
         text-align: center;
         font-family: sans-serif;
+        line-height: 2rem;
+
         
     }
 
 }
 
+/* for screen-size 380-480 */
 @media only screen and (max-width:480px){
   
     
@@ -62,7 +87,7 @@
     }
 
     .quote{
-        margin-top: 3%; 
+        margin-top: 7%; 
         align-content: center;
         
         
@@ -73,7 +98,96 @@
         font-size: 1rem;
         text-align: center;
         font-family: sans-serif;
+        line-height: 2rem;
+
         
     }
  
+}
+/* for screen-size 0-380 */
+@media only screen and (max-width:380px){
+
+    .hero-container h2{
+        
+        font-size: .8rem;
+        text-align: center;
+        
+        
+    }
+    #hero {
+        
+        font-size: 1.5rem ; 
+        letter-spacing: 2px;
+             
+        
+    }
+    .hero-sub{
+        margin-top: -6rem;
+        margin-left: -4rem;
+    }
+
+    .quote{
+        margin-top: 7%; 
+        align-content: center;
+        
+        
+        
+    }
+    
+    .quote h2{
+        font-size: .8rem;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 2rem;
+        
+    }
+
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) { 
+    
+    .hero-container{
+        top: 50%;
+    }
+   
+    .hero-container h2{
+        
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 10rem;
+        
+    }
+    #hero {
+        
+        font-size: 1.6rem ; 
+        letter-spacing: 2px;
+             
+        
+    }
+    .hero-sub{
+        margin-top: -6rem;
+        margin-left: -4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) and (orientation: landscape) { 
+    
+    .hero-container{
+        top: 50%;
+    }
+   
+    .hero-container h2{
+        
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 10rem;
+        
+    }
+    #hero {
+        
+        font-size: 3.5rem ; 
+        letter-spacing: 2px;
+             
+        
+    }
 }
