@@ -70,13 +70,13 @@ body{
 /* ******************SECTION OUR INFO ***********************/
 
 .our-info{
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .quote{
     margin-top: 3%; 
     align-content: center;
-    
+    padding-bottom: 4rem;
     
     
 }
@@ -86,4 +86,35 @@ body{
     font-family: "Lato" ,"Arial" ,sans-serif;
     line-height: 4rem;
     
+}
+
+
+.quote h2:after {
+    content:" ";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 65%;
+    top:50px;
+    margin-left: 10px;
+    border-top: 3px solid #bc6ff1; 
+    }
+
+.card-container{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.card{
+    text-align: center;
+    background-color: #424242;
+}
+
+.btn{
+    
+    background-color: #bc6ff1;
+}
+
+.card-img-top{
+    height: 300px;
 }
