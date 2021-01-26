@@ -1,9 +1,9 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;   
-}
+} */
 
 html,
 body{
@@ -65,3 +65,23 @@ body{
     100% {
       opacity: 1;
       transform: translateY(0); } }
+
+/* ******************SECTION OUR INFO ***********************/
+
+.our-info{
+    height: 100vh;
+}
+
+.quote{
+    margin-top: 3%; 
+    align-content: center;
+    
+    
+    
+}
+
+.quote h2{
+    text-align: center;
+    font-family: sans-serif;
+    
+}

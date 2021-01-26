@@ -21,6 +21,21 @@
         margin-left: -5rem;
     }
 
+    .quote{
+        margin-top: 3%; 
+        align-content: center;
+        
+        
+        
+    }
+    
+    .quote h2{
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: sans-serif;
+        
+    }
+
 }
 
 @media only screen and (max-width:480px){
@@ -44,6 +59,21 @@
     .hero-sub{
         margin-top: -6rem;
         margin-left: -4rem;
+    }
+
+    .quote{
+        margin-top: 3%; 
+        align-content: center;
+        
+        
+        
+    }
+    
+    .quote h2{
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: sans-serif;
+        
     }
  
 }
