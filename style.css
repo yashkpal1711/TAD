@@ -33,7 +33,7 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     color: #f1ecec;
-    font-family: "lato",sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-container h2{
@@ -96,7 +96,7 @@ body{
     vertical-align: bottom;
     width: 65%;
     top:50px;
-    margin-left: 10px;
+    margin: 0 auto;
     border-top: 3px solid #bc6ff1; 
     }
 
@@ -120,3 +120,76 @@ body{
 .card-img-top{
     height: 300px;
 }
+
+/* ******************SECTION OUR TEAM ***********************/
+
+
+.ourTeam{
+
+   background-color: rgb(51, 49, 49);
+
+}
+.ourTeamcontainer{
+    margin: 3% 10% 0 10%;
+}
+
+.gp{
+    margin-top: 3rem;
+
+}
+.gp:last-of-type{
+    padding-bottom: 5rem;
+
+}
+.gp:first-of-type{
+    margin-top: 1rem;
+
+}
+.komalimg{
+    height: 9.5rem;
+    width: auto;
+    border-radius: 50%;
+}
+
+.title{
+    margin-top: 3%; 
+    align-content: center;
+    padding-bottom: 4rem;
+    
+    
+}
+
+.title h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 4rem;
+    
+}
+
+
+.title h2:after {
+    content:" ";
+    display: block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 23%;
+    top: 50px;
+    margin: 0 auto;
+    border-top: 3px solid #bc6ff1; 
+    }
+
+    blockquote{
+        padding: 2%;
+        margin-top: 30px;
+        font-style: italic;
+        position: relative;
+        line-height: 145%;
+    }
+    
+    blockquote:before{
+        content: "\201C";
+        font-size: 600%;
+        position: absolute;
+        left: 10px;
+        top: -10px
+    }
