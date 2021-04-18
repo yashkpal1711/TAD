@@ -91,7 +91,7 @@ body{
 
 .quote h2:after {
     content:" ";
-    display: inline-block;
+    display: block;
     height: 0.5em;
     vertical-align: bottom;
     width: 65%;
@@ -192,4 +192,111 @@ body{
         position: absolute;
         left: 10px;
         top: -10px
+    }
+
+
+
+
+    /**************************CONTACT US**************** */
+
+    .ContactUs{
+        margin: 3% 10% 0 10%;
+    }
+
+    #col-heading{
+        font-size: 1.4rem;
+        font-family: ui-sans-serif;
+    }
+    .CU{
+        background-color: rgb(51, 49, 49);
+        border-radius: 1.5rem;
+    }
+    
+    .address{
+        text-align: left;
+        padding:0 5%;
+        padding-bottom: 4%;
+    }
+
+    
+.contact-title{
+    margin-top: 3%; 
+    align-content: center;
+    padding-bottom: 1rem;
+    
+    
+}
+
+.contact-title h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 4rem;
+    
+}
+
+
+.contact-title h2:after {
+    content:" ";
+    display: block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 23%;
+    top: 50px;
+    margin: 0 auto;
+    border-top: 3px solid #bc6ff1; 
+    }
+
+.maplink:link,
+.maplink:visited{
+        text-decoration: none;
+        color: rgb(206, 206, 206);
+    }
+
+.maplink:hover,
+.maplink:active{
+        color: #bc6ff1;
+    }
+
+.fa-map-marker-alt{
+    font-size: 1.4rem;
+}
+
+.sm{
+    padding: 0 auto;
+    text-align: center;
+}
+.smi{
+    padding: 5px;
+    font-size: 2.5rem;  
+}
+.insta:link,
+.insta:visited{
+        text-decoration: none;
+        color: rgb(206, 206, 206);
+    }
+
+.insta:hover,
+.insta:active{
+        color: #e95950;
+    }
+
+.fb:link,
+.fb:visited{
+            text-decoration: none;
+            color: rgb(206, 206, 206);
+        }
+    
+.fb:hover,
+.fb:active{
+            color: #3b5998;
+        }
+.linkd:link,
+.linkd:visited{
+        text-decoration: none;
+        color: rgb(206, 206, 206);
+    }
+
+.linkd:hover,
+.linkd:active{
+        color: #004464;
     }
