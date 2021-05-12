@@ -66,6 +66,23 @@
         margin-top: 20px;
     }
 
+    .ourTeamcontainer{
+        margin: 3% 5% 0 5%;
+    }
+
+    .komalimg {
+        height: 7.5rem;   
+    }
+
+    #col-heading {
+        font-size: 1.1rem;
+    }
+
+    .address {
+        font-size: 0.85rem;
+    }
+    
+
 }
 
 /* for screen-size 380-480 */
@@ -111,6 +128,21 @@
     .card{        
         margin-top: 20px;
     }
+    .komalimg {
+        margin-bottom: 8%;
+    }
+    #col-heading {
+        font-size: 2.2rem;
+    }
+    .CU {
+        margin-bottom: 3%;
+        margin-right: 5%;
+        margin-left: 5%;
+   }
+   
+   .col:first-child {
+    margin-left: 5%; 
+    }
  
 }
 /* for screen-size 0-380 */
@@ -153,6 +185,24 @@
     .card{        
         margin-top: 20px;
     }
+    .komalimg {
+        margin-bottom: 8%;
+    }
+    .contact-title h2 {
+        font-size: 1.4rem;
+    }
+    #col-heading {
+        font-size: 2.2rem;
+    }
+
+    .CU {
+         margin-bottom: 3%;
+         margin-right: 5%;
+        margin-left: 5%; 
+    }
+    .col:first-child {
+         margin-left: 5%; 
+    }
 
 }
 
@@ -183,6 +233,19 @@
     .card{        
         margin-top: 20px;
     }
+
+    .komalimg {
+        height: 7.5rem; 
+        margin-bottom: 8%;
+    }
+
+    #col-heading {
+        font-size: 1.1rem;
+    }
+
+    .address {
+        font-size: 0.85rem;
+    }
 }
 
 @media screen and (min-width: 1200px) and (orientation: landscape) { 
@@ -207,5 +270,17 @@
     }
     .card{        
         margin-top: 20px;
+    }
+    .komalimg {
+        height: 7.5rem; 
+        margin-bottom: 8%;
+    }
+
+    #col-heading {
+        font-size: 1.1rem;
+    }
+
+    .address {
+        font-size: 0.85rem;
     }
 }
