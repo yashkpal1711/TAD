@@ -43,16 +43,6 @@
             width: 100%;
         }
 
-        /* .nav2 li a {
-			text-decoration: none;
-			color: white;
-			font-size: 1.4rem;
-			font-family: "lato", sans-serif;
-			padding: 20px;
-			cursor: pointer;
-			display: inline;
-
-		} */
         .nav2 a {
             text-decoration: none;
             color: white;
@@ -279,9 +269,9 @@
                 flex-direction: column;
                 vertical-align: top;
                 margin-left: 2%;
-                position: relative;
-                top: -1200px;
-                right: 27px;
+                position: absolute;
+                right: 2%;
+                top: 85%;
                 text-align: center;
             }
 
@@ -299,6 +289,10 @@
 
             .infoProject p {
                 font-size: 1.2rem;
+            }
+
+            .gl-content img {
+                height: 25vh;
             }
         }
 
@@ -309,9 +303,9 @@
                 flex-direction: column;
                 vertical-align: top;
                 margin-left: 2%;
-                position: relative;
-                top: -1120px;
-                right: 27px;
+                position: absolute;
+                right: 2%;
+                top: 85%;
                 text-align: center;
             }
 
@@ -329,6 +323,10 @@
 
             .infoProject p {
                 font-size: 1.2rem;
+            }
+
+            .gl-content img {
+                height: 25vh;
             }
         }
 
@@ -339,9 +337,9 @@
                 flex-direction: column;
                 vertical-align: top;
                 margin-left: 2%;
-                position: relative;
-                top: -1020px;
-                right: 27px;
+                position: absolute;
+                right: 2%;
+                top: 90%;
                 text-align: center;
             }
 
@@ -359,6 +357,10 @@
 
             .infoProject p {
                 font-size: 1.2rem;
+            }
+
+            .gl-content img {
+                height: 45vh;
             }
         }
 
@@ -369,9 +371,9 @@
                 flex-direction: column;
                 vertical-align: top;
                 margin-left: 2%;
-                position: relative;
-                top: -850px;
-                right: 27px;
+                position: absolute;
+                right: 2%;
+                top: 100%;
                 text-align: center;
             }
 
@@ -390,13 +392,12 @@
             .infoProject p {
                 font-size: 1.2rem;
             }
+
+            .gl-content img {
+                height: 60vh;
+            }
         }
 
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0 4px;
-        }
 
         /* Create four equal columns that sits next to each other */
         .column {
@@ -427,13 +428,33 @@
             }
         }
 
+        .phCOllage h1 {
+            text-align: center;
+            font-size: 3.5rem;
+            margin: 3%;
+            margin-top: 10%;
+        }
+
+        .phCOllage h1::after {
+            content: " ";
+            justify-content: center;
+            text-align: center;
+            display: block;
+            height: 0.5em;
+            margin-left: auto;
+            border-top: 3px solid #bc6ff1;
+            margin-right: 60px;
+            margin-right: auto;
+            margin-top: 3%;
+            width: 50%;
+        }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             grid-gap: 10px;
             align-items: start;
             justify-items: center;
-            width: 70%;
             height: 20%;
             margin-left: 17%;
         }
@@ -455,7 +476,7 @@
         }
 
         .grid img:nth-child(6) {
-            grid-column: span 4;
+            grid-column: span 2;
         }
 
         .grid img:nth-child(5) {
@@ -475,7 +496,7 @@
         }
 
         .grid img:nth-child(1) {
-            grid-column: span 4;
+            grid-column: span 2;
         }
 
         @media (min-width:300px) and (max-width:1200px) {
@@ -580,6 +601,10 @@
             background-color: #9f35e6;
             transform: scale(.95);
         }
+
+        .CU {
+            margin: .8%;
+        }
     </style>
 </head>
 
@@ -639,18 +664,17 @@
     </div>
 
     <div id="content">
-            <div class="social">
-                <div class="icon">
-                    <h1>Share</h1>
-                    <a href="https://www.google.co.in/maps/@25.1469,75.8267212,16z" target="_blank"><img
-							src="img/socialMedia/google-plus.png" alt=""></a>
-					<a href="https://facebook.com" target="_blank"> <img src="img/socialMedia/fb.png" alt=""></a>
-					<a href="https://instagram.com" target="_blank"> <img src="img/socialMedia/instagram.png" alt=""></a>
-					<a href="https://linkedin.com" target="_blank"> <img src="img/socialMedia/linkedin.png" alt=""></a>
-					<a href="https://snapchat.com" target="_blank"> <img src="img/socialMedia/snapchat.png" alt=""></a>
-					<a href="https://twitter.com" target="_blank"> <img src="img/socialMedia/twitter.png" alt=""></a>
-					<a href="https://whatsapp.com" target="_blank"> <img src="img/socialMedia/whatsapp.png" alt=""></a>
-                </div>
+        <div class="social">
+            <div class="icon">
+                <h1>Share</h1>
+                <a href="https://www.google.co.in/maps/@25.1469,75.8267212,16z" target="_blank"><img
+                        src="img/socialMedia/google-plus.png" alt=""></a>
+                <a href="https://facebook.com" target="_blank"> <img src="img/socialMedia/fb.png" alt=""></a>
+                <a href="https://instagram.com" target="_blank"> <img src="img/socialMedia/instagram.png" alt=""></a>
+                <a href="https://linkedin.com" target="_blank"> <img src="img/socialMedia/linkedin.png" alt=""></a>
+                <a href="https://snapchat.com" target="_blank"> <img src="img/socialMedia/snapchat.png" alt=""></a>
+                <a href="https://twitter.com" target="_blank"> <img src="img/socialMedia/twitter.png" alt=""></a>
+                <a href="https://whatsapp.com" target="_blank"> <img src="img/socialMedia/whatsapp.png" alt=""></a>
             </div>
         </div>
         <div class="projectMatter">
@@ -679,13 +703,13 @@
         </div>
     </div>
     <section class="phCOllage">
+        <h1>Our Project</h1>
         <div class="photos">
-            <span style="margin-left: 37%; font-size: 2.5rem;">Our Project</span>
             <div class="grid">
                 <img src="img/bg/hero.jpg" alt="Sample photo">
                 <img src="img/bg/bg5.jpg" alt="Sample photo">
                 <img src="img/bg/bg6.jpg" alt="Sample photo">
-                <img src="img/bg/bg4.jpg" alt="Sample photo">
+                <img src="img/bg/bg1.jpg" alt="Sample photo">
                 <img src="img/bg/bg2.jpg" alt="Sample photo">
                 <img src="img/bg/bg3.jpg" alt="Sample photo">
             </div>
@@ -695,8 +719,21 @@
         <div class="card-container container">
             <div class="row">
                 <div class="col">
+                    <div class="card mx-auto" style="width: 100%">
+                        <img src="img/projects/pic3.jpg" class="card-img-top" alt="pic3" />
+                        <div class="card-body">
+                            <h5 class="card-title">GOA</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content.
+                            </p>
+                            <a href="GoGoa.html" class="btn">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
                     <div class="card mx-auto proj-card" style="width: 100%;">
-                        <img src="img/projects/pic1.jpg" class="card-img-top" alt="pic1">
+                        <img src="img/projects/pic3.jpg" class="card-img-top" alt="pic3">
                         <div class="card-body">
                             <h5 class="card-title">DELHI</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -707,58 +744,47 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card mx-auto proj-card" style="width: 100%;">
-                        <img src="img/projects/pic3.jpg" class="card-img-top" alt="pic3">
-                        <div class="card-body">
-                            <h5 class="card-title">GOA</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's
-                                content.</p>
-                            <a href="GoGoa.html" class="btn button">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>
 
     </section>
-    <footer class="ContactUs"> 
-		<div class="contact-title">
-		  <h2><i> GET YOUR FUTURE HOME NOW !</i></h2>
-		</div>
-		<div class="row">
-		  <div class="col span-1-of-3 CU">
-			<div class="contact-title">
-			  <h2 id="col-heading"> SOCIAL MEDIA</h2>            
-			</div>
-			<div class="sm ">
-			  <a href="https://www.instagram.com/tadstudio2018/" target="_balnk" class="sml insta">
-				<i class="fab fa-instagram smi"></i></a>
-			  <a href="https://www.facebook.com/tadstudio2018/" target="_balnk"class="sml fb">
-				<i class="fab fa-facebook-square smi"></i></a>
-			  <a href="https://www.linkedin.com/company/akr-architects" target="_balnk"class="sml linkd">
-				<i class="fab fa-linkedin smi"></i></a>
-			</div>
-		  </div>
-		  <div class="col span-1-of-3 CU">
-			<div class="contact-title">
-			  <h2 id="col-heading" > ADDRESS</h2>
-			</div>
-  
-			<div class="address">
-			  <i class="fas fa-map-marker-alt"></i><a href="https://goo.gl/maps/wCTe7sMdRGGTMdcRA" target="_balnk" class="maplink"> &nbsp; AG-04, SECTOR 63A, NEAR HANUMAN MANDIR, FNG HIGHWAY NOIDA, U.P</a></div>
-		  </div>
-		  <div class="col span-1-of-3 CU">
-			<div class="contact-title"> 
-			  <h2 id="col-heading"> MAILING ADDRESS</h2>
-			</div>
-		  </div>
-		</div>
-  
-	  </footer>
+    <footer class="ContactUs">
+        <div class="contact-title">
+            <h2><i> GET YOUR FUTURE HOME NOW !</i></h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 CU">
+                <div class="contact-title">
+                    <h2 id="col-heading"> SOCIAL MEDIA</h2>
+                </div>
+                <div class="sm ">
+                    <a href="https://www.instagram.com/tadstudio2018/" target="_balnk" class="sml insta">
+                        <i class="fab fa-instagram smi"></i></a>
+                    <a href="https://www.facebook.com/tadstudio2018/" target="_balnk" class="sml fb">
+                        <i class="fab fa-facebook-square smi"></i></a>
+                    <a href="https://www.linkedin.com/company/akr-architects" target="_balnk" class="sml linkd">
+                        <i class="fab fa-linkedin smi"></i></a>
+                </div>
+            </div>
+            <div class="col span-1-of-3 CU">
+                <div class="contact-title">
+                    <h2 id="col-heading"> ADDRESS</h2>
+                </div>
+
+                <div class="address">
+                    <i class="fas fa-map-marker-alt"></i><a href="https://goo.gl/maps/wCTe7sMdRGGTMdcRA" target="_balnk"
+                        class="maplink"> &nbsp; AG-04, SECTOR 63A, NEAR HANUMAN MANDIR, FNG HIGHWAY NOIDA, U.P</a>
+                </div>
+            </div>
+            <div class="col span-1-of-3 CU">
+                <div class="contact-title">
+                    <h2 id="col-heading"> MAILING ADDRESS</h2>
+                </div>
+            </div>
+        </div>
+
+    </footer>
     <!-- scripts -->
     <!-- bootstrap javascript cdn -->
     <script type="text/javascript"
